@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>slide sample</title>
+<link rel="stylesheet" href="ygmSlide.css" />
+<script type="text/javascript" src="ygmSlide.min.js"></script>
+</head>
+<body>
+    <div class="wrapper" id="slide02">
+        <div class="slide-container">
+            <div class="slide-wrap">
+                <div class="slide-box" style="background:#CD5C5C;">
+                    <p>slide 00</p>
+                </div>
+                <div class="slide-box" style="background:#F08080">
+                    <p>slide 01</p>
+                </div>
+                <div class="slide-box" style="background:#FA8072;">
+                    <p>slide 02</p>
+                </div>
+                <div class="slide-box" style="background:#E9967A;">
+                    <p>slide 03</p>
+                </div>
+                <div class="slide-box" style="background:#FFA07A;">
+                    <p>slide 04</p>
+                </div>
+                <div class="slide-box" style="background:#E74C3C;">
+                    <p>slide 05</p>
+                </div>
+                <div class="slide-box" style="background:#7FB3D5;">
+                    <p>slide 06</p>
+                </div>
+                <div class="slide-box" style="background:#16A085;">
+                    <p>slide 07</p>
+                </div>
+                <div class="slide-box" style="background:#B7950B;">
+                    <p>slide 08</p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-p">이전</button>
+            <button type="button" class="btn btn-n">다음</button>
+            <div class="navi"></div>
+        </div>
+    </div>
+
+   
+    <script>
+       
+        var ygmSlide = new YgmSlide({
+            idx: 2,
+            elId: "slide02",
+            auto: false,
+            popable: false,
+            loop: false,
+            autoDuration: 3000,
+            navi: true,
+        });
+
+    </script>
+
+
+</body>
+</html>
