@@ -1,4 +1,7 @@
-# YgmSlide
+# YgmSlide 
+
+> https://yougmi.github.io/yougmi_slider/demo
+#
 
 ## Slide HTML Layout
 
