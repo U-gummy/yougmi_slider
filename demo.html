@@ -6,75 +6,12 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <title>slide sample</title>
 <link rel="stylesheet" href="ygmSlide.css" />
-<link rel="stylesheet" href="demo.css" />
 <script type="text/javascript" src="ygmSlide.min.js"></script>
 </head>
 <body>
-    <div class="demo-content">
-        <h3 class="title">Parameters</h3>
-        <table class="tbl-demo-info">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Type</th>
-                    <th>Default</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>elId</td>
-                    <td>string</td>
-                    <td>*</td>
-                    <td>슬라이드 아이디</td>
-                </tr>
-                <tr>
-                    <td>idx</td>
-                    <td>number</td>
-                    <td>0</td>
-                    <td>활성화시킬 슬라이드의 인덱스</td>
-                </tr>
-                <tr>
-                    <td>loop</td>
-                    <td>boolean</td>
-                    <td>false</td>
-                    <td>루프</td>
-                </tr>
-                <tr>
-                    <td>navi</td>
-                    <td>boolean</td>
-                    <td>false</td>
-                    <td>페이지네이션</td>
-                </tr>
-                <tr>
-                    <td>auto</td>
-                    <td>boolean</td>
-                    <td>false</td>
-                    <td>자동슬라이드</td>
-                </tr>
-                <tr>
-                    <td>autoDuration</td>
-                    <td>number</td>
-                    <td>2000</td>
-                    <td>루프</td>
-                </tr>
-                <tr>
-                    <td>popable</td>
-                    <td>boolean</td>
-                    <td>false</td>
-                    <td>활성슬라이드 클릭시 팝업</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
     <div class="wrapper" id="mainSlide">
-        <!-- Slider main container -->
-        <!-- Additional required container -->
         <div class="slide-container">
-            <!-- Additional required wrapper -->
             <div class="slide-wrap">
-                <!-- Slides -->
                 <div class="slide-box" style="background:#CD5C5C;">
                     <p>slide 00</p>
                 </div>
@@ -104,11 +41,9 @@
                 </div>
             </div>
 
-            <!-- If we need navigation buttons -->
             <button type="button" class="btn btn-p">이전</button>
             <button type="button" class="btn btn-n">다음</button>
 
-            <!-- If we need pagination -->
             <div class="navi"></div>
         </div>
     </div>
