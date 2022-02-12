@@ -1,6 +1,6 @@
 # YgmSlide 
 
-> https://yougmi.github.io/yougmi_slider/demo
+> https://u-gummy.github.io/yougmi_slider/demo
 #
 
 ## Slide HTML Layout
